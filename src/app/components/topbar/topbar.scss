@@ -1,0 +1,60 @@
+.topbar__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  width: 100%;
+  padding: 15px;
+  height: 70px;
+  background-color: #ffffff10;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+}
+
+.topbar__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar__contacts {
+  display: flex;
+}
+
+.topbar__links {
+  margin-right: 30px;
+  position: relative;
+  display: flex;
+  li {
+    list-style: none;
+    margin-right: 20px;
+  }
+  a {
+    color: #000;
+  }
+}
+
+.topbar__socials {
+  border-radius: 50%;
+  background-color: #000;
+  padding: 10px;
+  margin: 0px 10px 0px 10px;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in;
+  &:hover {
+    transform: scale(1.5);
+  }
+  .instagram,
+  .vkontakte,
+  .mobile,
+  .telegram {
+    color: #fff;
+  }
+}

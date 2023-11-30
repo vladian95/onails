@@ -1,0 +1,37 @@
+.header__inner {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header__text {
+  flex: 6;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header__title {
+  font-size: 3rem;
+  font-weight: 200;
+  text-align: left;
+}
+
+.header__subtitle {
+  font-size: 5rem;
+}
+
+.header__school {
+  flex: 2;
+}
+
+.header__btn {
+  background-color: black;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 100;
+  padding: 10px;
+  border-radius: 30px;
+}
