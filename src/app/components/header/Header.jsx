@@ -10,7 +10,7 @@ const Header = () => {
         </div>
         <div className="header__school">
           <a href="#about" className="header__btn">
-            Обо мне
+            Узнать больше
           </a>
         </div>
       </div>
