@@ -15,7 +15,7 @@ const Topbar = () => {
               <a href="#school">О школе</a>
             </li>
             <li>
-              <a href="#">Курсы</a>
+              <a href="#cards">Курсы</a>
             </li>
             <li>
               <a href="#">Результат</a>
