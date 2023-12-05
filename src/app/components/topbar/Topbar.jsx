@@ -12,7 +12,7 @@ const Topbar = () => {
         <div className="topbar__info">
           <ul className="topbar__links">
             <li>
-              <a href="#">О школе</a>
+              <a href="#school">О школе</a>
             </li>
             <li>
               <a href="#">Курсы</a>

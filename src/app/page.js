@@ -1,8 +1,8 @@
 import Header from './components/header/Header';
-import Contact from './components/contact/Contact';
 import Topbar from './components/topbar/Topbar';
-import './page.css';
 import About from './components/about/About';
+import School from './components/school/school';
+import './page.css';
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
       <Topbar />
       <Header />
       <About />
-      <Contact />
+      <School />
     </main>
   );
 }

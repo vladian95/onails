@@ -14,22 +14,12 @@ const About = () => {
             Инструктор маникюра / бизнес-тренер / сервис-консультант
           </p>
           <div className="about__img">
-            <Image
-              src={Olga1}
-              width={400}
-              height={600}
-              style={{ borderRadius: '10px' }}
-            />
+            <Image src={Olga1} width={400} height={600} />
           </div>
         </div>
         <div className="about__right">
           <div className="about__img">
-            <Image
-              src={Olga2}
-              width={400}
-              height={600}
-              style={{ borderRadius: '10px' }}
-            />
+            <Image src={Olga2} width={400} height={600} />
           </div>
           <p className="about__text">
             Мастер маникюра с шестилетним стажем. Учредитель собственной студии
