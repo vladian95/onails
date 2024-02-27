@@ -4,7 +4,7 @@ import { MdCurrencyRuble } from 'react-icons/md';
 import '../cards/cards.scss';
 
 const Card = (props) => {
-  const { title, subtitle, img, price } = props;
+  const { title, subtitle, img, price, href } = props;
 
   return (
     <div className="card">
@@ -15,7 +15,7 @@ const Card = (props) => {
         {price}
         <MdCurrencyRuble />
       </div>
-      <Link href="/courseAcvarel" className="card__link">
+      <Link href={href} className="card__link">
         Узнать больше
       </Link>
     </div>

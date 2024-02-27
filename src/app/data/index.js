@@ -1,4 +1,5 @@
 import nogti from '../assets/manik.webp';
+import comboUp from '../assets/comboup.jpg';
 
 const courses = [
   {
@@ -8,13 +9,15 @@ const courses = [
     subtitle:
       'Акварель - это уникальная техника, с помощью которой вы сможете сделать любой дизайн! То ли это обычный мрамор, то ли это целый пейзаж',
     price: '15.000',
+    href: '/courseAcvarel',
   },
   {
     id: 2,
-    img: nogti,
-    title: 'курс 2',
-    subtitle: 'lorem ipsun description',
-    price: 20000,
+    img: comboUp,
+    title: 'Повышение Combo Up',
+    subtitle: 'Курс - легенда по версии всех, кто его проходил!',
+    price: '20.000',
+    href: '/comboUp',
   },
 ];
 
