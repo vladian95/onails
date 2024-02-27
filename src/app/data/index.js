@@ -1,5 +1,6 @@
 import nogti from '../assets/manik.webp';
 import comboUp from '../assets/comboup.jpg';
+import makroImg from '../assets/makroimage.jpg';
 
 const courses = [
   {
@@ -26,6 +27,14 @@ const courses = [
     subtitle: 'Только практика без воды.',
     price: '30.000',
     href: '/combyFrench',
+  },
+  {
+    id: 4,
+    img: makroImg,
+    title: 'Повышение квалификации «Макро - маникюр»',
+    subtitle: 'Только практика без воды.',
+    price: '40.000',
+    href: '/makro',
   },
 ];
 
