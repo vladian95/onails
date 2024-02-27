@@ -1,7 +1,7 @@
 import CourseTopbar from '../components/courseTopbar/CourseTopbar';
 import BackBtn from '../components/backBtn/BackBtn';
 import Image from 'next/image';
-import compoUpImg from '../assets/comboup.jpg';
+import combyFrenchImg from '../assets/combyFrenchImg.jpg';
 import '../combyFrench/combyFrench.scss';
 
 const page = () => {
@@ -12,7 +12,7 @@ const page = () => {
       <h2 className="combyFrench__title">comby french</h2>
       <div className="combyFrench__img">
         <Image
-          src={compoUpImg}
+          src={combyFrenchImg}
           width={500}
           height={300}
           className="combyFrench__image"

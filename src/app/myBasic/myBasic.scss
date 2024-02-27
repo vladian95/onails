@@ -1,8 +1,8 @@
-.combyFrench {
+.myBasic {
   padding-top: 80px;
 }
 
-.combyFrench__title {
+.myBasic__title {
   text-align: center;
   color: #020202;
   font-size: 55px;
@@ -11,20 +11,21 @@
   margin-bottom: 30px;
 }
 
-.combyFrench__img {
+.myBasic__img {
   text-align: center;
   margin-bottom: 30px;
 }
 
-.combyFrench__image {
+.myBasic__image {
   border-radius: 8px;
+  object-fit: cover;
 }
 
-.combyFrench__inner {
+.myBasic__inner {
   padding: 20px;
 }
 
-.combyFrench__subtitle {
+.myBasic__subtitle {
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
@@ -32,7 +33,7 @@
   border-top: 2px solid #020202;
 }
 
-.combyFrench__list-item {
+.myBasic__list-item {
   color: #747474;
   font-size: 18px;
 }

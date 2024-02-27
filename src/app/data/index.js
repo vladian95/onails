@@ -1,6 +1,9 @@
 import nogti from '../assets/manik.webp';
 import comboUp from '../assets/comboup.jpg';
 import makroImg from '../assets/makroimage.jpg';
+import instructorImg from '../assets/instructorimg.jpg';
+import myBasicImg from '../assets/mybasicImg.jpg';
+import combyFrenchImg from '../assets/combyFrenchImg.jpg';
 
 const courses = [
   {
@@ -22,7 +25,7 @@ const courses = [
   },
   {
     id: 3,
-    img: comboUp,
+    img: combyFrenchImg,
     title: 'Повышение квалификации «Комби + френч»',
     subtitle: 'Только практика без воды.',
     price: '30.000',
@@ -35,6 +38,23 @@ const courses = [
     subtitle: 'Только практика без воды.',
     price: '40.000',
     href: '/makro',
+  },
+  {
+    id: 5,
+    img: instructorImg,
+    title: 'Инструкторский курс',
+    subtitle:
+      'Хочешь передавать свой опыт другим, но не знаешь, как упаковать весь свой опыт в структуру обучения.',
+    price: '50.000',
+    href: '/instructor',
+  },
+  {
+    id: 6,
+    img: myBasicImg,
+    title: 'Базовый курс «Твоя Основа»',
+    subtitle: 'Самый эффективный курс для быстрого старта в профессии.',
+    price: '60.000',
+    href: '/myBasic',
   },
 ];
 
