@@ -19,6 +19,14 @@ const courses = [
     price: '20.000',
     href: '/comboUp',
   },
+  {
+    id: 3,
+    img: comboUp,
+    title: 'Повышение квалификации «Комби + френч»',
+    subtitle: 'Только практика без воды.',
+    price: '30.000',
+    href: '/combyFrench',
+  },
 ];
 
 export default courses;
