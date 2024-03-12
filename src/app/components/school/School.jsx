@@ -14,31 +14,32 @@ const School = () => {
         <div className="school__right">
           <h2 className="school__title">О нашей школе</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-            dignissimos rem accusantium ipsum. Architecto omnis ratione ut
-            ducimus sit quaerat possimus, quod quia praesentium repudiandae
-            aperiam saepe vitae impedit? Suscipit?
+            Меня зовут Ольга Абрамович и я основатель первой лицензированной
+            школы — студии маникюра в самом сердце Симферополя.
           </p>
           <br />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-            dignissimos rem accusantium ipsum. Architecto omnis ratione ut
-            ducimus sit quaerat possimus, quod quia praesentium repudiandae
-            aperiam saepe vitae impedit? Suscipit?
+            Здесь вы сможете ознакомиться со всеми нашими услугами и получить
+            консультацию по любому вопросу.
           </p>
           <br />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-            dignissimos rem accusantium ipsum. Architecto omnis ratione ut
-            ducimus sit quaerat possimus, quod quia praesentium repudiandae
-            aperiam saepe vitae impedit? Suscipit?
+            Как инструктор с 7-летним стажем с уверенностью могу сказать о том,
+            что профессиональное обучение с качественной обратной связью — залог
+            вашего стремительного роста в бьюти-сфере. С нашей командой вы
+            можете в кратчайшие сроки пройти путь от новичка до топ-мастера и
+            инструктора.
           </p>
           <br />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-            dignissimos rem accusantium ipsum. Architecto omnis ratione ut
-            ducimus sit quaerat possimus, quod quia praesentium repudiandae
-            aperiam saepe vitae impedit? Suscipit?
+            Наша школа - уютное пространство, в котором живет любовь. Любовь к
+            людям и к здоровым ногтям.
+          </p>
+          <br />
+          <p>
+            В течение 7 лет мы следим за основными трендами в индустрии красоты,
+            регулярно повышаем свою квалификацию, осваиваем новые техники. Мы
+            работаем исключительно с сертифицированными брендами.
           </p>
         </div>
       </div>

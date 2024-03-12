@@ -5,7 +5,7 @@ import instructorImg from '../assets/instructorimg.jpg';
 import myBasicImg from '../assets/mybasicImg.jpg';
 import combyFrenchImg from '../assets/combyFrenchImg.jpg';
 
-const courses = [
+export const courses = [
   {
     id: 1,
     img: nogti,
@@ -58,4 +58,33 @@ const courses = [
   },
 ];
 
-export default courses;
+export const inquiryItems = [
+  {
+    id: 1,
+    title: 'Март',
+    description1: '09.03 - наращивание на Верхние формы',
+    description2: '10-13.03 - инструкторский курс',
+    description3: '16.03 - Макро маникюр 1 день',
+    description4: '17.03 - МК по стемпингу',
+    description5: '30-31.03 - Combo Up',
+    description6: '28.03-1.04 - Твоя основа',
+  },
+  {
+    id: 2,
+    title: 'Апрель',
+    description1: '14.04 - макро маникюр',
+    description2: '21.04 - наращивание на верхние формы',
+    description3: '28.04 - комби + френч',
+    description4: '29-30.04 - Combo up',
+  },
+  {
+    id: 3,
+    title: 'Май',
+    description1: '3-7.05 - Твоя основа',
+    description2: '9-13.05 - Инструкторский курс живой',
+    description3: '26.05 - наращивание на верхние формы',
+    description4: '18.05 - комби + френч',
+  },
+];
+
+// export default { courses, inquiry };

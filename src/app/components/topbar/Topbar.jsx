@@ -2,13 +2,17 @@ import { FaInstagram } from 'react-icons/fa';
 import { SlSocialVkontakte } from 'react-icons/sl';
 import { CiPhone } from 'react-icons/ci';
 import { PiTelegramLogo } from 'react-icons/pi';
+import Logo from '../../assets/logo.svg';
+import Image from 'next/image';
 import './topbar.scss';
 
 const Topbar = () => {
   return (
     <nav className="topbar">
       <div className="topbar__inner">
-        <div className="topbar__logo">LOGO</div>
+        <div className="topbar__logo">
+          <Image src={Logo} height={90} width={90} priority />
+        </div>
         <div className="topbar__info">
           <ul className="topbar__links">
             <li>
@@ -18,7 +22,7 @@ const Topbar = () => {
               <a href="#cards">Курсы</a>
             </li>
             <li>
-              <a href="#">Результат</a>
+              <a href="#inquiry">Расписание</a>
             </li>
             <li>
               <a href="#">Отзывы</a>

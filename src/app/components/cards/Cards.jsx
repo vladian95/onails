@@ -1,6 +1,6 @@
-import '../cards/cards.scss';
-import courses from '@/app/data';
 import Card from './Card';
+import '../cards/cards.scss';
+import { courses } from '@/app/data';
 
 const Cards = () => {
   return (
